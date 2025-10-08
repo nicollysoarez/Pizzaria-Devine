@@ -30,4 +30,31 @@ O projeto tem como objetivo demonstrar habilidades em **desenvolvimento mobile c
 ---
 
 ## 📂 Estrutura do Projeto
+┣ 📁 app/ # Código-fonte principal
+┣ 📁 gradle/ # Configurações do Gradle
+┣ 📄 build.gradle # Configuração do build principal
+┣ 📄 settings.gradle # Definição do nome do módulo
+┣ 📄 gradlew / .bat # Scripts para build automatizado
+┗ 📄 .gitignore # Arquivos ignorados pelo Git
 
+⚙️ Como Executar o Projeto
+
+### Pré-requisitos
+- Android Studio instalado (recomendado: versão 2022.3 ou superior)
+- JDK 11+ configurado no ambiente
+- Emulador Android ou dispositivo físico conectado
+
+### Passos para rodar o app:
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/nicollysoarez/Pizzaria-Devine.git
+
+2. Abra o Projeto no Android Studio: 
+File > Open > Selecione a pasta "Pizzaria-Devine"
+
+3. Aguarde o Gradle sincronizar.
+Execute o app:
+▶️ Run > Run 'app'
+
+
+4. Escolha um emulador ou conecte seu dispositivo Android.
